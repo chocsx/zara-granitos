@@ -1,3 +1,68 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
+.top-header{
+    background-color: $brand-color;
+    padding: 5px 0;
+    a{
+        color: #fff;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            li{
+                display: flex;
+                a{
+                    i{
+                        margin-right: 5px;
+                    }
+                }
+            }
+        }
+        &__contato {
+            flex: 2;
+            justify-content: space-between
+        }
+        &__social{
+            flex: 1;
+            justify-content: space-evenly
+        }
+        &__idioma{
+            flex: 1;
+        }
+    }
+}
+header{
+    .logo{
+        max-width: 160px;
+        padding: 20px 0;
+        img{
+            width: 100%;     
+        }
+    }
+    nav.menu{
+        display: flex;
+        flex: 2;
+        justify-content: flex-end;
+        a{
+            align-self: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            margin-right: 30px;
+            &:last-child{
+                margin-right: 0;
+            }
+            &.active{
+                color: $brand-color;
+                border: 1px solid $brand-color;
+                padding: 10px 25px;
+            }
+        }
+    }
+}
