@@ -1,0 +1,21 @@
+{
+  "name": "zara-granitos",
+  "version": "1.0.0",
+  "description": "This is a sample project using the [7-1 architecture pattern](http://sass-guidelin.es/#architecture) and sticking to [Sass Guidelines](http://sass-guidelin.es) writing conventions.",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass stylesheets/main.scss dist/main.css",
+    "watch": "node-sass stylesheets/main.scss dist/main.css -wo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chocsx/zara-granitos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chocsx/zara-granitos/issues"
+  },
+  "homepage": "https://github.com/chocsx/zara-granitos#readme"
+}

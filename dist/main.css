@@ -549,3 +549,52 @@ header nav.menu {
       color: #00507c;
       border: 1px solid #00507c;
       padding: 10px 25px; }
+
+.top-header {
+  background-color: #00507c;
+  padding: 5px 0; }
+  .top-header a {
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .top-header .wrapper {
+    flex-direction: row;
+    justify-content: space-between; }
+    .top-header .wrapper ul {
+      display: flex; }
+      .top-header .wrapper ul li {
+        display: flex; }
+        .top-header .wrapper ul li a i {
+          margin-right: 5px; }
+    .top-header .wrapper__contato {
+      flex: 2;
+      justify-content: space-between; }
+    .top-header .wrapper__social {
+      flex: 1;
+      justify-content: space-evenly; }
+    .top-header .wrapper__idioma {
+      flex: 1; }
+
+header .logo {
+  max-width: 160px;
+  padding: 20px 0; }
+  header .logo img {
+    width: 100%; }
+
+header nav.menu {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end; }
+  header nav.menu a {
+    align-self: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-right: 30px; }
+    header nav.menu a:last-child {
+      margin-right: 0; }
+    header nav.menu a.active {
+      color: #00507c;
+      border: 1px solid #00507c;
+      padding: 10px 25px; }
