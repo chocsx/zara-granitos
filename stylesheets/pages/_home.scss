@@ -1,3 +1,22 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+.orcamento{
+    form{
+        max-width: 380px;
+        margin: 30px auto 0;
+        input,textarea{
+            display: block;
+            width: 100%;
+            padding: 5px 15px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]{
+            max-width: 200px;
+            padding: 15px 0;
+        }
+    }
+}
+section:not(.banner){
+    padding: 30px 0;
+}

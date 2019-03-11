@@ -1,3 +1,14 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    border: 1px solid $brand-color;
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: $brand-color;
+}

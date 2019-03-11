@@ -7,6 +7,8 @@
     <title>Zara Granitos</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
         crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
     <link rel="stylesheet" href="./dist/main.css">
 </head>
 <body>
@@ -71,7 +73,7 @@
                     <li><a href="#"><img src="./media/marmores.jpg" alt="Zara Marmore"></a></li>
                     <li><a href="#"><img src="./media/marmores.jpg" alt="Zara Marmore"></a></li>
                 </ul>
-                <a href="#">confira a linha completa de mármores</a> 
+                <a href="#" class="btn">confira a linha completa de mármores</a> 
 
                 <ul class="lista-marmores">
                     <li><a href="#"><img src="./media/marmores.jpg" alt="Zara Granitos"></a></li>
@@ -79,7 +81,7 @@
                     <li><a href="#"><img src="./media/marmores.jpg" alt="Zara Granitos"></a></li>
                     <li><a href="#"><img src="./media/marmores.jpg" alt="Zara Granitos"></a></li>
                 </ul>
-                <a href="#">confira a linha completa de mármores</a>
+                <a href="#" class="btn">confira a linha completa de mármores</a>
             </div>
         </section>
         <section class="orcamento">
@@ -94,27 +96,31 @@
                     <input type="text" name="email" placeholder="E-mail">
                     <input type="text" name="telefone" placeholder="Telefone">
                     <textarea name="mensagem" rows="5" placeholder="Digite a sua mensagem"></textarea>
-                    <input type="submit" value="Enviar Mensagem">
+                    <input type="submit" value="Enviar Mensagem" class="btn">
                 </form>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div class="logo">
-                <img src="./media/logo-footer.png" alt="">
-            </div>
-            <div class="endereco">
-                <i class="fas fa-map-marker-alt"></i>
-                <p>
-                    RODOVIA RS 118 - KM 7,5 - nº 6891 <br>
-                    SAPUCAIA DO SUL/RS
-                </p>
-            </div>
-            <div class="contatos">
-                <li><a href="#"><i class="fas fa-phone"></i><span>+55 51 3451 5172</span></a></li>
-                <li><a href="#"><i class="fab fa-whatsapp"></i><span>+55 51 99949 8997</span></a></li>
-                <li><a href="#"><i class="fas fa-envelope"></i><span>vendas@zaragranitos.com.br</span></a></li>
+            <div class="row">
+                <div class="logo">
+                    <img src="./media/logo-footer.png" alt="">
+                </div>
+                <div class="endereco">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>
+                        RODOVIA RS 118 - KM 7,5 - nº 6891 <br>
+                        SAPUCAIA DO SUL/RS
+                    </p>
+                </div>
+                <div class="contatos">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-phone"></i><span>+55 51 3451 5172</span></a></li>
+                        <li><a href="#"><i class="fab fa-whatsapp"></i><span>+55 51 99949 8997</span></a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i><span>vendas@zaragranitos.com.br</span></a></li>    
+                    </ul>
+                </div>
             </div>
         </div>
     </footer>

@@ -1,3 +1,52 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+footer{
+	background-color: $grey-bg;
+	color: #FFF;
+	padding: 40px 0;
+	.row{
+		justify-content: space-between;
+	 	& > div{
+			flex: 1;
+		}
+	}
+	.endereco{
+		max-width: 250px;
+		display: flex;
+		align-items: center;
+		align-self: center;
+		
+		& > *{
+			flex: 1;
+			height: 100%;
+		}
+		i{
+			display: flex;
+			align-self: flex-start;
+			max-width: 15px;
+			margin-right: 5px;
+			text-align: right;
+		}
+		p{
+			flex-grow: 2;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	.contatos{
+		display: flex;
+		justify-content: flex-end;
+		i{
+			max-width: 15px;
+			margin-right: 5px;
+			text-align: right;
+		}
+	}
+	ul{
+		list-style-type: none;
+	}
+	a{
+		color: #fff;
+	}
+}

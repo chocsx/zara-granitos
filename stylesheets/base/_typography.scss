@@ -3,5 +3,17 @@
  */
 body {
   color: $text-color;
-  font: normal 125% / 1.4 $text-font-stack;
+  font: normal 14px $text-font-stack;
+  text-transform: uppercase;
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: 300;
+  text-transform: uppercase;
+  display: block;
+
+}
+h1,h2{
+    text-align: center;
+    color: #00507c;
+    font-size: 30px;
 }
